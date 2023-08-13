@@ -1,35 +1,33 @@
 <!DOCTYPE html>
-
+ 
 <html>
-
+ 
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
+ 
 <body>
+	<form method ="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Name">
+		<label for="phone">Phone Number</label>
+		<input type="text" id="phone" placeholder="Phone Number">
+		<label for="addres">Addres</label>
+		<input type="text" id="address" placeholder="Address">
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
+		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+		<label for="multiselect">Please select your preferred breeds</label>
+		<select name="multiSelect" id="multiSelect">
+			<option value="Black dog">Black dog</option>
+			<option value="white dog">white dog</option>
+			<option value="Black and white dog">Black and white dog</option>
+		</select>
+		<input type="submit" id="submit" value = "Submit">
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
-	<form action="#" method="post">
-		<label for="name">Name</label>
-		<input type="text" id="name" name="name" placeholder="Name">
-		<label for="tel">Phone Number</label>
-		<input type="number" id="tel" name="contact_number" placeholder="Phone Number">
-		<label for="address">Address</label>
-		<input type="text" id="address" name="address" placeholder="Address">
-		<label for="dogs">Have you ever lived with a Dog before?</label>
-	
-			<label id="dogs" type="checkbox">Bulldog</label>
-			<input type="checkbox" id="dogs">
-			<label id="dogs"type="checkbox">Golden Retriever</label>
-			<input type="checkbox" id="dogs">
-			<label id="dogs" type="checkbox">German Shepherd</label>
-			<input type="checkbox" id="dogs">
-		
-		
-		<button id="button" type="submit">Submit</button>
-	</form>
+ 
 </body>
-
+ 
 </html>
